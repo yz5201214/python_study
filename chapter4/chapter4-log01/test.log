@@ -1,0 +1,15 @@
+DEBUG:root:this is debug level log
+INFO:root:this is info level log
+WARNING:root:this is warning level log
+ERROR:root:this is error level log
+CRITICAL:root:this is critical level log
+2019-05-05 22:57:07,151========DEBUG+++++++++++(mssage)s
+2019-05-05 22:57:07,152========INFO+++++++++++(mssage)s
+2019-05-05 22:57:07,152========WARNING+++++++++++(mssage)s
+2019-05-05 22:57:07,152========ERROR+++++++++++(mssage)s
+2019-05-05 22:57:07,152========CRITICAL+++++++++++(mssage)s
+2019-05-05 22:58:17,256========DEBUG+++++++++++this is debug level log
+2019-05-05 22:58:17,257========INFO+++++++++++this is info level log
+2019-05-05 22:58:17,257========WARNING+++++++++++this is warning level log
+2019-05-05 22:58:17,257========ERROR+++++++++++this is error level log
+2019-05-05 22:58:17,257========CRITICAL+++++++++++this is critical level log

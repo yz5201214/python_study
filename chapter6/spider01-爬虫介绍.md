@@ -1,0 +1,33 @@
+#Spider网页爬虫
+* 参考资料
+    * python网络数据采集，图灵工业出版
+    * 精通python爬虫框架Scrapy，人民邮电出版社
+    * http://blog.csdn.net/c406495762/article/details/72858983
+    * http://scrapy-chs.readthedocs.io/zh_CN/0.24/intro/tutorial.html
+* 前提知识
+    * url
+    * http协议
+    * web前端，html，css，js
+    * ajax
+    * re,xpath
+    * xml
+* 简介
+    * 网络爬虫，网页蜘蛛，网络机器人，网页追逐者，是一种按照一定的规则，自动的抓取网络信息的程序或者脚本
+    * 特点；
+        * 能按照作者要求下载数据或者内容
+        * 能自动在网络上流窜
+    * 三大步骤
+        * 下载信息
+        * 提取正确的信息
+        * 根据一定的规则自动流窜到另外的网页上执行
+    * 爬虫分类
+        * 通用爬虫
+            * 不分类，任何信息都进行抓取，类似于baidu，google等搜索引擎的内容，都是爬下来的
+        * 专业爬虫（聚焦爬虫）
+            * 针对指定的url，根据作者需要进行指定内容获取
+    * Python网络包简介
+        * Python2.x：urllib,urllib2,urllib3,httplib,httplib2,requests
+            * python2：urllib和urllib2配合使用或者requests
+        * Python3.x：urllib,urllib3,httplib2,requests
+            * python3：urllib，requests配合使用
+         
