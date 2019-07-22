@@ -35,4 +35,7 @@
             * size：cookie的大小
             * http字段
     * 使用fileCookie来进行cookie管理 案例case02.py
+        * 这里要特别注意,FileCookieJar 实际上并没有实现save方法
+            但是MozillaCookieJar，LWPCookieJar 都实现了，所以如果要文件形式保存cookie信息，不能使用FileCookie.save
+    * cookie 的读取 ，参考案例：case03.py
     

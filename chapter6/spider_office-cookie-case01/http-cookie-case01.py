@@ -43,9 +43,11 @@ def getCookie(url):
     # 如果已经执行了登录，那么cookie自动会填充到open
     rsp = oper.open(url)
     html = rsp.read().decode()
+    print(html)
+    '''
     with open("test.html","w") as f:
         f.write(html)
-
+    '''
 '''
 在请求管理器中可以直接查看到所有的请求返回的hanlder信息
 '''
@@ -79,6 +81,6 @@ def printCookieInfo(url):
 if __name__ == '__main__':
     logUrl = "http://www.renren.com/PLogin.do"
     myProfile = "http://www.renren.com/288810313/profile"
-    # test01(logUrl)
-    # getCookie(myProfile)
-    printCookieInfo(logUrl)
+    test01(logUrl)
+    getCookie(myProfile)
+    # printCookieInfo(logUrl)
