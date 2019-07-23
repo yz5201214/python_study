@@ -5,7 +5,7 @@ def test01():
     # r 表示字符串不转义
     p = re.compile(r'\d+')
     #字符串中是否含有指定的正则表达式内容
-    a = '2j31lk2j3oi12j31oi2j31oi2j3oi1j23oi1j2io3j1oi23j'
+    a = 'j31lk2j3oi12j31oi2j31oi2j3oi1j23oi1j2io3j1oi23j'
     m = p.match(a)
     print(m)
 
@@ -65,7 +65,7 @@ def test06():
     p = re.compile(r'[\u4e00-\u9fa5]')
     m = p.findall("我日你妈mmp，，，，,,,,你晓得个chuizi")
     print(m)
-# 贪婪和贪婪
+# 贪婪和非贪婪
 def test07():
     a = u'<div>name</div><div>age</div><div>sex</div>'
     # 默认是下面这种贪婪模式
@@ -79,10 +79,11 @@ def test07():
     print(m2.group())
 
 if __name__ == '__main__':
-    # test02()
+    # test01()
+    test02()
     # test03()
     # test04()
     # test05()
     # test06()
-    test07()
+    # test07()
 
