@@ -33,6 +33,19 @@
     * 非贪婪
         * 尽可能少的匹配
     * Python默认的是贪婪模式
-        
-    
+    * 正则一些案例参考：spider-regularExpression-case06.py
+* XML
+    * 参考前面基础知识
+    * XPath（XML Path Language）是一门在XML稳定中查找信息的语言
+        * 重点参考官方文档：http://www.w3school.com.cn/xpath/index.asp
+        * XPath表达式工具：XMLQuire
+        * chrom插件：XPath Helper
+
+* lxml库
+    * python的HTML/XML的解析器
+        * 官方文档: https://lxml.de/index.html
+        * 案例：spider-lxml-case08.py
+    * etree
+        * 解析HTML
+        * 文件读取只能读取XML文件，不能读取HTML文件
     
