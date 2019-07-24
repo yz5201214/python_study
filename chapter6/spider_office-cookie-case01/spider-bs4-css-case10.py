@@ -9,6 +9,7 @@ def test01(url):
     bs4 = BeautifulSoup(rsq.text,'lxml')
     # 页面元素美化 但是乱码。要解决的问题
     # html = bs4.prettify()
+    # print(html)
     tagDiv = bs4.select("div[class='movie-item-in']")
     for movieDiv in tagDiv:
         aList = movieDiv.select("a[style='position:relative;display:block;']")
