@@ -26,7 +26,7 @@
         * goole验证
             * 目前已经用的比较少
     * 简单案例：spider-authCode-case12.py
-    * Tesseract 简单图片，文字识别模块
+    * Tesseract 简单图片，文字识别模块 识别率是真的低
         * 机器视觉领域的基础软件
         * OCR技术：OpticalChracterRecongnition，光学文字识别
         * Tesseract：一个OCR库，google赞助
