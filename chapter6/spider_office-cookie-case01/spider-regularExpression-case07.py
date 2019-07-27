@@ -75,4 +75,11 @@ if __name__ == '__main__':
     # test02()
     # test03()
     # test04()
-    test05()
+    # test05()
+
+    s = r'magnet:\?xt=urn:btih:[0-9a-fA-F]{40}'
+    str = '香港 | 犯罪 | 警匪 | 2019 | 动作 | 黑帮 | 剧情 | 悬疑<br><br>◎简悍匪龙志强，在香港回归前趁香港英政府不作为，而屡犯巨案，先后绑架富豪利家及雷家之长子，勒索超过二十亿元，事主怕被报复,\n \n交赎款后都不敢报警。中国公安部极为关注，与香港警方合力，派香港警员何天卧底潜入龙志强犯罪团伙，发现他正策划绑架澳门富豪贺不凡，最终陆港警察合力勇擒龙志强，救出贺不凡。<br><br><img src="https://www.gogoimg.com/images/2019/07/24/2.Chasing.The.Dragon.II.Master.Of.Ransom.2019.WEB-1080p.X264.AAC-UUMp4_preview.jpg" width="1599" height="994"><span style="color:Red;"><strong>磁力链接<br><br>magnet:?xt=urn:btih:2B77512CBA241741632E91BBE8DF473372C31D5B<br><br>电驴链接<br><br>ed2k://|file|追龙2.Chasing.The.Dragon.II.Master.Of.Ransom.2019.WEB-1080p.X264.AAC-UUMp4.mp4|2125109805|3B2D49369C68EFDBDB9EBE4853467BD5|h=4YSGX37U5B6HMZEHUNOYK4VOYDIDLWTV|/</strong></span><br><br></p><p><br></p></div><div class="bg1 border post">\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t<div id="message_31980548" class="message">\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<!--\r\n\t\t\t\t\t\t\t\t\t\t\t\t-->\r\n<!-- #第一楼右侧广告 -->\n感谢楼主分享</div>\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t'
+    p = re.compile(s)
+    print(str.replace('\t','').replace('\r','').replace('\n',''))
+    m = p.findall(str.replace('\t','').replace('\r','').replace('\n',''))
+    print(m)
