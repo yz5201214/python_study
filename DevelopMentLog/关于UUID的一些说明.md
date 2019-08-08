@@ -8,5 +8,6 @@
             * uuid.uuid3(uuid.NAMESPACE_DNS, 'yuanlin')
         * uuid4()：这是基于随机数的uuid，既然是随机就有可能真的遇到相同的，但这就像中奖似的，几率超小，因为是随机而且使用还方便，所以使用这个的还是比较多的。
             * uuid.uuid4()
+            * 如果要去除- .hex即可
         * uuid5()：这个看起来和uuid3()貌似并没有什么不同，写法一样，也是由用户来指定namespace和字符串，不过这里用的散列并不是MD5，而是SHA1.
             * uuid.uuid5(uuid.NAMESPACE_DNS, 'yuanlin')
