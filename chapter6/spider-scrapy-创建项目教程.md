@@ -15,4 +15,7 @@
     
     * spider入库教程：
         * 参考：http://www.scrapyd.cn/jiaocheng/169.html
+        
+    * 过程记录
+        * files 是关键字，数据库对象操作时候，不能使用
     

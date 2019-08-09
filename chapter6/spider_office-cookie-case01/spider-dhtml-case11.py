@@ -69,8 +69,8 @@ def testWebDriver01(url):
 
 if __name__ == '__main__':
     # 电影网站
-    url = 'https://www.50s.wang/whole/1.html'
+    url = 'http://localhost:8081/upload/forum.php?mod=post&action=newthread&fid=2'
     # 测试输入框的输入
     urlBaidu = "http://www.baidu.com"
-    # testWebDriver(url)
-    testWebDriver01(urlBaidu)
+    testWebDriver(url)
+    # testWebDriver01(urlBaidu)
