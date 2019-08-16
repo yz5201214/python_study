@@ -21,3 +21,9 @@
         * 将电脑和手机连到同一个wifi下（或者可以用手机给笔记本电脑开热点的方式，只要能让它们处于同一个局域网中）
         * Win+R呼出cmd，使用ipconfig命令，查看本地的IPv4地址，
         * 打开手机中的任意浏览器，输入电脑的IPv4地址+端口号+项目名的方式，即可成功访问站点，进行移动端的测试。
+
+
+* 插件需要新增的数据表
+    * 参数配置表:pre_common_pluginvar
+    * 影视分享主记录表:pre_plugin_xlwsq_ysdp_item
+    * 影视分享下载记录表:pre_plugin_xlwsq_ysdp_down
