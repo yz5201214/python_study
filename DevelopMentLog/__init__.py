@@ -15,20 +15,10 @@ if __name__ == '__main__':
         passwd='cyfU2ypeM9AVeVzh',  # 用户密码
         charset='utf8',  # 字符编码集 ,注意这里，直接写utf8即可
         use_unicode=True)
+    cur = my.cursor()
     selectSQL = 'select * from pre_common_pluginvar'
-    common = pd.read_sql(selectSQL, my)  # 影视大全参数配置表
-    for commonItem in common.get_values():
-        sItem = pd.Series(commonItem)
-        if sItem[5] == 'yuyan':
-            for xItem in sItem[7].split('\r\n'):
-                abc = xItem.split('=')
-                redis_db.hset('yuyan', abc[1], abc[0])# 结构：key=国语，value=1
-
-    yuyan = []  # 其他
-    for rKye in redis_db.hkeys('yuyan'):
-        rValue = redis_db.hget('yuyan', rKye)
-        if '英语中字'.find(rKye.decode('utf-8')[0:1]) >= 0:
-            yuyan.append(rValue.decode('utf-8'))
-    print(','.join(yuyan))
+    cur.execute(selectSQL)
+    df = cur.fetchall()
+    print(df)
 
 
