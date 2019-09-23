@@ -43,9 +43,4 @@ if __name__ == '__main__':
     # downLoad()
     # getFileList()
     # getAllBucket()
-    # delFile()
-    abc = '2019-09-11 13:59:53'
-    timeArray = time.strptime(abc, "%Y-%m-%d %H:%M:%S")
-    # 转换成时间戳
-    timestamp = time.mktime(timeArray)
-    print(timestamp)
+    delFile()
